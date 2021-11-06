@@ -35,5 +35,5 @@ jobs:
       - name: Upload Results
         uses: actions/upload-artifact@v2
         with:
-          name: jmeter-results
+          name: Results
           path: result.jtl
